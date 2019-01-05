@@ -2566,11 +2566,11 @@
 /turf/simulated/floor/plating,
 /area/security/detectives_office)
 "eD" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /turf/simulated/floor/lino,
 /area/security/detectives_office)
 "eE" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /turf/simulated/floor/lino,
 /area/security/detectives_office)
 "eF" = (
@@ -3198,7 +3198,7 @@
 /turf/simulated/floor/tiled,
 /area/security/forensics_office)
 "fS" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/effect/floor_decal/corner/blue{
 	icon_state = "corner_white";
 	dir = 5
@@ -3206,7 +3206,7 @@
 /turf/simulated/floor/tiled,
 /area/security/forensics_office)
 "fT" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /obj/effect/floor_decal/corner/blue{
 	icon_state = "corner_white";
 	dir = 5
@@ -5418,7 +5418,7 @@
 /area/medical/psych)
 "jH" = (
 /obj/structure/table/standard,
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /obj/effect/floor_decal/corner/green/full{
 	icon_state = "corner_white_full";
 	dir = 1
@@ -5555,7 +5555,7 @@
 /area/medical/psych)
 "jT" = (
 /obj/structure/table/standard,
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /obj/effect/floor_decal/corner/green{
 	icon_state = "corner_white_full";
 	dir = 8
@@ -6473,7 +6473,7 @@
 	pixel_y = 32
 	},
 /obj/structure/table/wood,
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /turf/simulated/floor/carpet,
 /area/medical/psych)
 "lx" = (

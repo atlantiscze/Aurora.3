@@ -15443,18 +15443,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/virology)
-"aCy" = (
-/obj/effect/floor_decal/corner/lime{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/lime{
-	icon_state = "corner_white";
-	dir = 9
-	},
-/obj/structure/table/standard,
-/obj/machinery/computer/med_data/laptop,
-/turf/simulated/floor/tiled/white,
-/area/medical/virology)
 "aCz" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -28552,12 +28540,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/medical/patient_wing_post2)
-"jkR" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/obj/structure/table/standard,
-/obj/machinery/computer/med_data/laptop,
-/turf/simulated/floor/tiled,
-/area/medical/patient_wing_post2)
 "jBb" = (
 /obj/machinery/firealarm/north,
 /turf/simulated/floor/carpet,
@@ -29056,34 +29038,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing_hallway)
-"tnK" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/structure/table/standard,
-/obj/machinery/computer/med_data/laptop,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/medical/patient_wing_post1)
 "toQ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/grille,
@@ -30031,16 +29985,17 @@
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
 "yju" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+/obj/effect/floor_decal/corner/lime{
+	dir = 6
 	},
-/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/corner/lime{
+	icon_state = "corner_white";
+	dir = 9
+	},
+/obj/structure/table/standard,
+/obj/machinery/computer/records/medical/laptop,
 /turf/simulated/floor/tiled/white,
-/area/outpost/research/hallway)
+/area/medical/virology)
 "yjv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -30054,6 +30009,17 @@
 /area/outpost/research/hallway)
 "yjw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/outpost/research/hallway)
+"yjx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
@@ -30065,7 +30031,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjx" = (
+"yjy" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -30094,40 +30060,34 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing_post1)
-"yjy" = (
-/obj/machinery/alarm{
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/structure/bed/padded,
-/obj/item/weapon/bedsheet/medical,
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/sign/nosmoking_1{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/medical/patient_a)
 "yjz" = (
-/obj/machinery/alarm{
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
+	},
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/bed/padded,
-/obj/item/weapon/bedsheet/medical,
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/sign/nosmoking_1{
-	pixel_y = 32
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/turf/simulated/floor/wood,
-/area/medical/patient_a)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/table/standard,
+/obj/machinery/computer/records/medical/laptop,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/medical/patient_wing_post1)
 "yjA" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -30144,7 +30104,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
-/area/medical/patient_c)
+/area/medical/patient_a)
 "yjB" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -30161,8 +30121,42 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood,
-/area/medical/patient_d)
+/area/medical/patient_a)
 "yjC" = (
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet/medical,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/medical/patient_c)
+"yjD" = (
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet/medical,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/simulated/floor/wood,
+/area/medical/patient_d)
+"yjE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30177,7 +30171,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjD" = (
+"yjF" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Xenoarchaeology Department";
 	req_access = list(65)
@@ -30193,7 +30187,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjE" = (
+"yjG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30208,14 +30202,14 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjF" = (
+"yjH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjG" = (
+"yjI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -30232,7 +30226,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjH" = (
+"yjJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -30249,7 +30243,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjI" = (
+"yjK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -30264,41 +30258,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/research/hallway)
-"yjK" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/outpost/research/hallway)
 "yjL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -30306,9 +30269,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -30316,20 +30276,15 @@
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
 "yjM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
@@ -30355,6 +30310,45 @@
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
 "yjO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/outpost/research/hallway)
+"yjP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/outpost/research/hallway)
+"yjQ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/cable/green{
@@ -30373,7 +30367,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjP" = (
+"yjR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
@@ -30391,7 +30385,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjQ" = (
+"yjS" = (
 /obj/effect/floor_decal/corner/pink{
 	icon_state = "corner_white";
 	dir = 5
@@ -30401,14 +30395,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing_hallway)
-"yjR" = (
+"yjT" = (
 /obj/machinery/door/firedoor,
 /obj/structure/sign/nosmoking_1{
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/patient_wing_hallway)
-"yjS" = (
+"yjU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -30423,7 +30417,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjT" = (
+"yjV" = (
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 4;
@@ -30443,12 +30437,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjU" = (
+"yjW" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjV" = (
+"yjX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30460,7 +30454,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjW" = (
+"yjY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -30475,29 +30469,35 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yjX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/white,
-/area/outpost/research/hallway)
-"yjY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/tiled/white,
-/area/outpost/research/hallway)
 "yjZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/outpost/research/hallway)
+"yka" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/table/standard,
+/obj/machinery/computer/records/medical/laptop,
+/turf/simulated/floor/tiled,
+/area/medical/patient_wing_post2)
+"ykb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/outpost/research/hallway)
+"ykc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -30515,7 +30515,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yka" = (
+"ykd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -30536,7 +30536,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykb" = (
+"yke" = (
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
 	frequency = 1379;
@@ -30572,7 +30572,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"ykc" = (
+"ykf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
@@ -30593,7 +30593,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"ykd" = (
+"ykg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -30610,7 +30610,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"yke" = (
+"ykh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -30631,7 +30631,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"ykf" = (
+"yki" = (
 /obj/machinery/door/airlock/research{
 	autoclose = 0;
 	frequency = 1379;
@@ -30658,7 +30658,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"ykg" = (
+"ykj" = (
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -30679,7 +30679,7 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/xenobiology)
-"ykh" = (
+"ykk" = (
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -30703,7 +30703,7 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/xenobiology)
-"yki" = (
+"ykl" = (
 /obj/machinery/door/airlock/research{
 	frequency = 1379;
 	icon_state = "door_locked";
@@ -30732,7 +30732,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/research/hallway)
-"ykj" = (
+"ykm" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
@@ -30742,7 +30742,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykk" = (
+"ykn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30757,7 +30757,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/xenobiology)
-"ykl" = (
+"yko" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -30770,13 +30770,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/research/hallway)
-"ykm" = (
+"ykp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykn" = (
+"ykq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -30796,7 +30796,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/xenobiology)
-"yko" = (
+"ykr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -30807,7 +30807,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/research/hallway)
-"ykp" = (
+"yks" = (
 /obj/effect/floor_decal/corner/mauve{
 	icon_state = "corner_white";
 	dir = 10
@@ -30820,7 +30820,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykq" = (
+"ykt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
 	d1 = 1;
@@ -30841,14 +30841,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"ykr" = (
+"yku" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
-"yks" = (
+"ykv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	icon_state = "map-scrubbers";
@@ -30862,7 +30862,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/research/hallway)
-"ykt" = (
+"ykw" = (
 /obj/machinery/door/airlock/glass_research{
 	name = "Data Compilation Office";
 	req_access = list(47)
@@ -30873,7 +30873,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yku" = (
+"ykx" = (
 /obj/machinery/door/airlock/research{
 	frequency = 1379;
 	icon_state = "door_locked";
@@ -30902,13 +30902,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/storage)
-"ykv" = (
+"yky" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykw" = (
+"ykz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30928,7 +30928,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/rnd/storage)
-"ykx" = (
+"ykA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	icon_state = "intact-scrubbers";
 	dir = 5
@@ -30937,7 +30937,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"yky" = (
+"ykB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 1;
@@ -30950,7 +30950,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/storage)
-"ykz" = (
+"ykC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -30958,14 +30958,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykA" = (
+"ykD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykB" = (
+"ykE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -30981,7 +30981,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/storage)
-"ykC" = (
+"ykF" = (
 /obj/machinery/requests_console{
 	department = "Science";
 	departmentType = 2;
@@ -30995,7 +30995,7 @@
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/white,
 /area/outpost/research/hallway)
-"ykD" = (
+"ykG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -31006,7 +31006,7 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/rnd/storage)
-"ykE" = (
+"ykH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	icon_state = "map-scrubbers";
@@ -31023,7 +31023,7 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/storage)
-"ykF" = (
+"ykI" = (
 /obj/machinery/firealarm/east,
 /obj/effect/floor_decal/corner/mauve{
 	icon_state = "corner_white";
@@ -49949,21 +49949,21 @@ aEt
 aEt
 aGA
 awY
-yjF
-yjS
+yjH
 yjU
 yjW
 yjY
-yki
+ykb
 ykl
 yko
-yks
-yku
-ykw
-yky
+ykr
+ykv
+ykx
+ykz
 ykB
-ykD
 ykE
+ykG
+ykH
 bgm
 bgK
 bgU
@@ -50206,7 +50206,7 @@ aEu
 aFD
 aCO
 awY
-yjG
+yjI
 aJH
 aKI
 aLG
@@ -50220,7 +50220,7 @@ bdm
 bdL
 beR
 bfq
-ykF
+ykI
 bgn
 bgL
 bgV
@@ -50463,7 +50463,7 @@ aEv
 aFE
 aCO
 awY
-yjH
+yjJ
 axX
 azm
 azm
@@ -50720,7 +50720,7 @@ aEw
 aFF
 aCO
 aHA
-yjI
+yjK
 aJI
 azm
 aLH
@@ -50977,7 +50977,7 @@ aEx
 aEs
 aCO
 aHB
-yjJ
+yjL
 axT
 azm
 aLH
@@ -51234,7 +51234,7 @@ aEy
 aFG
 aCO
 awY
-yjK
+yjM
 axT
 azm
 aLH
@@ -51491,7 +51491,7 @@ aEz
 aFH
 aCO
 aHC
-yjL
+yjN
 axT
 azm
 aLH
@@ -51748,7 +51748,7 @@ aEA
 aCO
 aGB
 aHD
-yjM
+yjO
 axT
 azm
 aLH
@@ -52005,7 +52005,7 @@ aEB
 aFI
 aGC
 aHE
-yjN
+yjP
 aJJ
 azm
 azm
@@ -52256,13 +52256,13 @@ yjq
 yjr
 yjs
 yjt
-yju
 yjv
 yjw
-yjC
-yjD
+yjx
 yjE
-yjO
+yjF
+yjG
+yjQ
 aJK
 ayl
 aLI
@@ -52519,18 +52519,18 @@ azo
 aFK
 aGC
 awY
-yjP
-yjT
+yjR
 yjV
 yjX
 yjZ
-ykj
+ykc
 ykm
 ykp
-ykt
-ykv
-ykx
-ykz
+yks
+ykw
+yky
+ykA
+ykC
 aSZ
 azm
 bgP
@@ -52780,15 +52780,15 @@ aIK
 aJM
 ayn
 amw
-yka
+ykd
 aNH
 aMF
 aPi
 aGC
 aQu
 aRo
-ykA
-ykC
+ykD
+ykF
 azm
 aJW
 bgp
@@ -53037,7 +53037,7 @@ arD
 aJN
 aFV
 aFV
-ykb
+yke
 aFV
 aFV
 azm
@@ -53294,7 +53294,7 @@ alu
 aJO
 aFV
 aLJ
-ykc
+ykf
 aNI
 aFV
 acc
@@ -53551,7 +53551,7 @@ alu
 aJP
 aFV
 aLK
-ykd
+ykg
 aNJ
 aFV
 aFV
@@ -53808,7 +53808,7 @@ aIL
 aJQ
 aFV
 aLL
-yke
+ykh
 aNK
 aFV
 aPj
@@ -54065,7 +54065,7 @@ arD
 aJR
 aFV
 aFV
-ykf
+yki
 aFV
 aFV
 aPk
@@ -54322,7 +54322,7 @@ aFU
 aHL
 aFV
 aLM
-ykg
+ykj
 aNL
 amI
 aPl
@@ -54579,10 +54579,10 @@ akx
 akx
 aFV
 aLN
-ykh
 ykk
 ykn
 ykq
+ykt
 aPS
 aQz
 apa
@@ -54839,7 +54839,7 @@ aLO
 aMQ
 aNN
 amI
-ykr
+yku
 aPT
 aQA
 aRv
@@ -65876,7 +65876,7 @@ azZ
 aAK
 aBo
 azy
-aCy
+yju
 aDg
 aEb
 aFf
@@ -71019,7 +71019,7 @@ azF
 akx
 aDr
 unQ
-yjx
+yjy
 unQ
 unQ
 unQ
@@ -71533,7 +71533,7 @@ hwN
 wqz
 aDt
 unQ
-tnK
+yjz
 cIR
 mGh
 unQ
@@ -73075,7 +73075,7 @@ akx
 gsG
 gsG
 aFt
-yjy
+yjA
 aGp
 qRa
 aIr
@@ -74103,7 +74103,7 @@ aaa
 aaa
 aaa
 aEp
-yjz
+yjB
 aGs
 qRa
 hWq
@@ -75131,7 +75131,7 @@ aaa
 aaa
 aaa
 aEq
-yjA
+yjC
 ckF
 xrb
 aIv
@@ -75652,7 +75652,7 @@ qSH
 aJs
 aKx
 gsX
-jkR
+yka
 oUd
 rMt
 aRD
@@ -76159,7 +76159,7 @@ aaa
 aaa
 aaa
 daO
-yjB
+yjD
 tUY
 nIs
 aIy
@@ -76420,7 +76420,7 @@ hiB
 hiB
 hiB
 hiB
-yjQ
+yjS
 aKC
 nCh
 toQ
@@ -77705,7 +77705,7 @@ bTg
 ltb
 aqF
 gll
-yjR
+yjT
 mWx
 lZJ
 bfE
